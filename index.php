@@ -68,6 +68,7 @@ $config['GENERAL']['TEMP_DIRECTORY'] = "./PhpikiTemp/"; // Path to temporary dir
 $config['GENERAL']['MODTIME_FORMAT'] = "(Y-m-d H:i:s T)"; // date() compatible format string for the pagelist
 $config['GENERAL']['SHOW_CONTROLS'] = true; // show all the wiki controls - edit, save, PageList etc...
 $config['GENERAL']['DEBUG'] = false; // display debug information (pagegen time, uptime, load)
+$config['GENERAL']['URL_REWRITE'] = false;
 $config['GENERAL']['URL_PREFIX'] = ($config['GENERAL']['URL_REWRITE'])?'/':'/?page=';
 $config['GENERAL']['URL_POSTFIX'] = ($config['GENERAL']['URL_REWRITE'])?'/':'';
 
