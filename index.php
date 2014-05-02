@@ -426,6 +426,7 @@ function htmlHeader( $title, $config )
 	echo("<head>");
 	echo("\n");
 	echo("\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n");
+	echo("\t<meta name=\"viewport\" content=\"width=device-width\" />\n");
 	css($origTitle);
 	echo("\t<title>");
 	if ($config['GENERAL']['TITLE']==$title)
